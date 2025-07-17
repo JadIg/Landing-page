@@ -1,0 +1,117 @@
+/* 🧼 CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 📦 Layout Containers */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  background-color: #1f2937;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0 15%;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.main-head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 7rem 15%;
+}
+
+/* 🖼️ Images */
+img {
+  width: 400px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.main-head-item {
+  width: 400px;
+  height: 220px;
+}
+
+/* 📝 Typography */
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.main-line {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.main-paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* 🔘 Buttons */
+.main-head-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 9px;
+  margin-top: 1rem;
+}
+
+/* SECOND SECTION */
+
+#upper-text{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    margin-top: 3rem;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.rand-pictures{
+    display: flex;
+    margin: 2.5rem 2.5rem 10rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.rand-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rand-box{
+    width: 170px;
+    height: 170px;
+    border: 4px rgb(81, 156, 242) solid;
+    border-radius: 10px;
+}
+
+.rand-text{
+    width: 170px;
+    text-align: center;
+    color: #314565c8
+}
