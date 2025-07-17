@@ -115,3 +115,58 @@ img {
     text-align: center;
     color: #314565c8
 }
+
+/* THIRD SECTION */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6% 16%;
+  background-color: #e5e7eb;
+}
+
+.quote-item1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote-item2{
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: end;
+    padding-right: 20px;
+}
+
+/* FORTH SECTION */
+
+.sign-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 6% 15%;
+    padding: 3rem 10rem;
+    color: #f9faf8;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+#sign-p{
+    font-weight: lighter;
+}
+
+.sign-item button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0.6rem;
+    padding: 10px 30px;
+}
+
+.sign-item{
+    align-items: flex-end;
+}
