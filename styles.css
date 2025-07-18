@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* 📦 Layout Containers */
@@ -157,7 +158,7 @@ img {
     font-weight: lighter;
 }
 
-.sign-item button{
+.sign-item1 button{
     background-color: #3882f6;
     color: #f9faf8;
     border: 2px solid #f9faf8;
@@ -169,4 +170,12 @@ img {
 
 .sign-item{
     align-items: flex-end;
+}
+
+/* FOOTER */
+.footer-container {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 2rem 0;
+    color: #f9faf8;
 }
